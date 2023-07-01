@@ -1,0 +1,43 @@
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #3675b4, #78a1c6);
+  }
+
+  #menu {
+    width: 280px;
+    height: 120vh;
+    background: #3675b4;
+    float: left;
+  }
+
+  #header {
+    height: 200px;
+    background: #fff;
+  }
+
+  #content {
+    margin-left: 200px;
+    padding: 20px;
+    color: #fff;
+  }
+
+  #footer {
+    height: 50px;
+    background: #fff;
+    clear: both;
+  }
